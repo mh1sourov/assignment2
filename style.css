@@ -179,7 +179,7 @@ display: flex;
     margin-top: 30px;
 }
 
-.game-box{
+.game-banner{
     width: auto;
 
 }
@@ -194,6 +194,10 @@ display: flex;
    font-weight: 500;
    font-size: 15px;
 
+}
+
+#mini-guird:hover{border: 5px solid pink;
+    text-overflow: ;
 }
 
 /* funny games section end */
@@ -256,7 +260,58 @@ font-size: 20px;
 /* play instant section end */
 
 
+.game-catagory-section{
+    max-width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(255, 66, 165, 0.03), rgba(255, 66, 165, 0.03));
+}
 
+.game-catagory-container{
+    margin: 20px;
+}
+
+
+
+.game-box{
+    width: 220px;
+    min-height: 20px;
+    border-radius: 30px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.game-box p {
+    color: #534C64;
+    font-size: 15px;
+}
+
+.game-box:hover{
+    border: 2px solid #F948B2;
+}
+
+.game-box:hover p {
+    color: #F948B2;
+}
+
+
+.game-box img{
+    height: 60px;
+    width: 60px;
+}
+
+.game-catagory-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+
+
+
+
+/* footer section start here */
 
 .footer-section{
     max-width: 1200px;
@@ -415,7 +470,7 @@ text-align: center;
 }
 
 .game-container{
- flex-direction: column;
+    flex-direction: column;
 }
 
 .play-instant-section{
@@ -449,6 +504,44 @@ flex-direction: column;
    flex-direction: column;
    align-items: center;
   }
+
+
+
+ .game-box{
+    width: 80px;
+    min-height:15px;
+    border-radius: 30px;
+    display: flex;
+    gap: 5px;
+    margin-top: 40px;
+    
+}
+
+#seven, #eight, #nine{
+    display: none;
+}
+
+
+.game-box img{
+    height: 20px;
+    width: 20px;
+}
+
+.game-box p {
+    color: #534C64;
+    font-size: 10px;
+}
+
+.game-catagory-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+
+
+
+
 
 }
 
